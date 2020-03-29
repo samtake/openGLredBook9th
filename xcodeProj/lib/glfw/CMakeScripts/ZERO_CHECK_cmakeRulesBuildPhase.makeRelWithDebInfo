@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/ZERO_CHECK
+	/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeFiles/ZERO_CHECK
 
 
-/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/ZERO_CHECK: 
+/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeScripts/ReRunCMake.make
+	make -f /Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeScripts/ReRunCMake.make

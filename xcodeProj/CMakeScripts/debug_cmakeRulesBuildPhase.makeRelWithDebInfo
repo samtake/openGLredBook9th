@@ -2,9 +2,9 @@
 # Custom rules for debug
 .SUFFIXES: 
 all: \
-	/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/CMakeFiles/debug
+	/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/CMakeFiles/debug
 
 
-/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/CMakeFiles/debug: 
+/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/CMakeFiles/debug: 
 	echo ""
-	/usr/local/Cellar/cmake/3.9.0/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master
+	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug /Users/samtake/Documents/GitHub/openGLredBook9th

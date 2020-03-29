@@ -10,6 +10,7 @@
 #include "vapp.h"
 #include "LoadShaders.h"
 
+
 enum VAO_IDs { Triangles, NumVAOs };
 enum Buffer_IDs { ArrayBuffer, NumBuffers };
 enum Attrib_IDs { vPosition = 0 };
@@ -52,8 +53,8 @@ void KeyPressExample::Initialize(const char * title)
                   vertices, GL_STATIC_DRAW );
 
     ShaderInfo  shaders[] = {
-        { GL_VERTEX_SHADER, "media/shaders/keypress/keypress.vert" },
-        { GL_FRAGMENT_SHADER, "media/shaders/keypress/keypress.frag" },
+        { GL_VERTEX_SHADER, "../media/shaders/keypress/keypress.vert" },
+        { GL_FRAGMENT_SHADER, "../media/shaders/keypress/keypress.frag" },
         { GL_NONE, NULL }
     };
 

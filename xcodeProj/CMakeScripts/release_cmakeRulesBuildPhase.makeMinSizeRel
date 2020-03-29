@@ -2,9 +2,9 @@
 # Custom rules for release
 .SUFFIXES: 
 all: \
-	/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/CMakeFiles/release
+	/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/CMakeFiles/release
 
 
-/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/CMakeFiles/release: 
+/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/CMakeFiles/release: 
 	echo ""
-	/usr/local/Cellar/cmake/3.9.0/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Release /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master
+	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Release /Users/samtake/Documents/GitHub/openGLredBook9th

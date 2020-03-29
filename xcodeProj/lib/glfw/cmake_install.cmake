@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw
+# Install script for directory: /Users/samtake/Documents/GitHub/openGLredBook9th/lib/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,22 +27,27 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/samtake/Documents/GitHub/openGLredBook9th/lib/glfw/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES
-    "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src/glfw3Config.cmake"
-    "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src/glfw3ConfigVersion.cmake"
+    "/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/src/glfw3Config.cmake"
+    "/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/src/glfw3ConfigVersion.cmake"
     )
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw/glfwTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw/glfwTargets.cmake"
-         "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets.cmake")
+         "/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw/glfwTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -51,28 +56,28 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets-debug.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets-minsizerel.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets-relwithdebinfo.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw" TYPE FILE FILES "/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeFiles/Export/lib/cmake/glfw/glfwTargets-release.cmake")
   endif()
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src/glfw3.pc")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/src/glfw3.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src/cmake_install.cmake")
+  include("/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/src/cmake_install.cmake")
 
 endif()
 

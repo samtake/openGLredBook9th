@@ -8,23 +8,23 @@ default:
 # link.  This forces Xcode to relink the targets from scratch.  It
 # does not seem to check these dependencies itself.
 PostBuild.glfw.Debug:
-/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/libglfw3_d.a:
-	/bin/rm -f /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/libglfw3_d.a
+/Users/samtake/Documents/GitHub/openGLredBook9th/lib/libglfw3_d.a:
+	/bin/rm -f /Users/samtake/Documents/GitHub/openGLredBook9th/lib/libglfw3_d.a
 
 
 PostBuild.glfw.Release:
-/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/libglfw3.a:
-	/bin/rm -f /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/libglfw3.a
+/Users/samtake/Documents/GitHub/openGLredBook9th/lib/libglfw3.a:
+	/bin/rm -f /Users/samtake/Documents/GitHub/openGLredBook9th/lib/libglfw3.a
 
 
 PostBuild.glfw.MinSizeRel:
-/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/libglfw3.a:
-	/bin/rm -f /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/libglfw3.a
+/Users/samtake/Documents/GitHub/openGLredBook9th/lib/libglfw3.a:
+	/bin/rm -f /Users/samtake/Documents/GitHub/openGLredBook9th/lib/libglfw3.a
 
 
 PostBuild.glfw.RelWithDebInfo:
-/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/libglfw3.a:
-	/bin/rm -f /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/libglfw3.a
+/Users/samtake/Documents/GitHub/openGLredBook9th/lib/libglfw3.a:
+	/bin/rm -f /Users/samtake/Documents/GitHub/openGLredBook9th/lib/libglfw3.a
 
 
 

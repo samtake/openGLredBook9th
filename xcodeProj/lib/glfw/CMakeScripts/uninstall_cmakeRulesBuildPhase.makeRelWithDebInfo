@@ -2,9 +2,9 @@
 # Custom rules for uninstall
 .SUFFIXES: 
 all: \
-	/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/uninstall
+	/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeFiles/uninstall
 
 
-/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/uninstall: 
+/Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/CMakeFiles/uninstall: 
 	echo ""
-	/usr/local/Cellar/cmake/3.9.0/bin/cmake -P /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/cmake_uninstall.cmake
+	/Applications/CMake.app/Contents/bin/cmake -P /Users/samtake/Documents/GitHub/openGLredBook9th/xcodeProj/lib/glfw/cmake_uninstall.cmake
